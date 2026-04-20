@@ -1,0 +1,8 @@
+# Changelog
+
+## 2026-04-20
+
+- Added `index.html` implementing a complete, production-ready, single-file cinematic cosmic landing page.
+- Added immersive layered visual system with performant canvas starfield, nebula/dust overlays, and scroll-reactive depth.
+- Added progressive enhancement behavior for reduced motion, mobile, and lower-power devices.
+- Added `README.md` with usage, interaction model, performance, and accessibility guidance.
