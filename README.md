@@ -44,6 +44,18 @@ Then visit `http://localhost:8080`.
 - Reduces star density and motion on lower-power/mobile contexts
 - Pauses animation when tab visibility is hidden
 - Respects `prefers-reduced-motion`
+- Includes an import map for `three` and `three/addons/` so browser-native ES module imports resolve without bundler errors
+
+## Troubleshooting
+
+If you see an error similar to:
+
+`Uncaught TypeError: Failed to resolve module specifier "three"...`
+
+then either:
+
+- open the page through a local server (`python3 -m http.server 8080`) rather than `file://`, and
+- keep the `<script type="importmap">` section in `index.html` so bare specifiers like `three` can resolve in the browser.
 
 ## Accessibility notes
 
