@@ -11,6 +11,7 @@ The page emphasizes:
 - immersive deep-space atmosphere
 - minimal poetic typography
 - subtle, slow environmental motion
+- enhanced first-viewport readability with brighter hero glow and stronger copy contrast
 - progressive enhancement for performance
 - accessibility-conscious interaction and readability
 
